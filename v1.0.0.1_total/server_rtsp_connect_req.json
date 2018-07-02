@@ -1,0 +1,27 @@
+{
+	"msgHead" :
+	{
+        "serverIP" : "192.168.1.111",
+        "rtspIP" : "192.168.1.100",
+        "msgCode" : 20009,
+        "msgType" : 1,
+        "timestamp" : 1512973817,
+        "requestID": 0,
+        "boundID": 0,
+        "authorization":0
+	},
+	"msgBody" :
+	{
+		"dataRequest" :
+		{
+			"code" :"",
+			"msgString":"jsonmsgcode_rtsp_connecttest_req" 
+		},
+		"dataPush" :
+		{
+			"cameraList":[
+			{"camName":"相机3","camID":176,"MediaUserName":"admin","MediaPassWord":"Kqsxt123","mediaIP":"192.168.1.152","mediaPort":2345,"camIP":"192.168.1.107","camPort":554,"camMapX":100,"camMapY":100,"camState":1,"streamType":264,"districtName":"一楼","districtID":123,"earaName":"区域1","earaID":12}
+			]	
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+    "msgHead" :
+    {
+        "serverIP" : "192.168.1.100",   	
+        "msgCode" : 20012,
+        "msgType" :1,
+        "timestamp" : 1512973817,
+        "requestID": 0,          
+        "boundID": 0,            
+        "authorization":0        
+    },
+    "msgBody" :
+    {
+        "dataRequest" : 
+        {
+            "code" :0                   
+        },
+        "dataPush":
+        {
+		    "MonitorList": 
+			[
+                {
+                    "cameraId": "server01",
+                    "currentTime": 1512973817,
+                    "state": 0                                  
+                },
+                {
+                    "cameraId": "server01",
+                    "currentTime": 1512973817,
+                    "state": 1
+                },
+                {
+                    "cameraId": "server01",
+                    "currentTime": 1512973817,
+                    "state": 0
+                },
+                {
+                    "cameraId": "server01",
+                    "currentTime": 1512973817,
+                    "state": 0
+                }				
+            ]
+        }
+    }
+}

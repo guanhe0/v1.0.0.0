@@ -1,0 +1,20 @@
+{
+    "msgHead":
+    {
+        "requestID": 0, 
+        "boundID": 0,
+        "authorization":0,
+        "timestamp":1476414567061,
+        "serverIP":"192.168.1.101",
+        "msgType":1,
+        "msgCode":20007
+    },
+	"msgBody":
+	{
+		"dataRequest":
+		{
+			"code":""
+		},
+		"dataPush":"face tell worker send connect req"
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"msgHead" :
+	{
+        "serverIP" : "192.168.1.111",	
+        "FaceRecIP" : "192.168.1.100",
+        "msgCode" : 30302,
+        "msgType" : 1,
+        "timestamp" : 1512973817,
+        "requestID": 0,
+        "boundID": 0,
+        "authorization":0
+	},
+	"msgBody" :
+	{
+		"dataRequest" :
+		{
+			"code" : 30302
+		},
+		"dataPush" :
+		{
+			"CameraArr":
+			[
+				{
+				"CameraId":1231,
+				"zoneID":2131,	
+				"direction":{
+					"UcamID":1,
+					"DcamID":2,
+					"LcamID":2,
+					"RcamID":12,
+					"FcamID":12,
+					"BcamID":231
+					}
+				},
+				{
+				"CameraId":1232,
+				"zoneID":2131,	
+				"direction":{
+					"UcamID":1,
+					"DcamID":2,
+					"LcamID":2,
+					"RcamID":12,
+					"FcamID":12,
+					"BcamID":231
+					}
+				},
+				{
+				"CameraId":1233,
+				"zoneID":2131,	
+				"direction":{
+					"UcamID":1,
+					"DcamID":2,
+					"LcamID":2,
+					"RcamID":12,
+					"FcamID":12,
+					"BcamID":231
+					}
+				}
+			],			
+			"TailAddrArr":
+			[
+				{
+				"TailAddr":{
+				
+					"TailName":"server01",
+					"TailId":3231,
+					"TailIP":"192.168.1.202",
+					"TailPort":9999
+					}
+				}
+			]
+		}
+	}
+}

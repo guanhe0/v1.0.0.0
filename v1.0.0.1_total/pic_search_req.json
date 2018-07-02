@@ -1,0 +1,23 @@
+{
+ "msgHead": {
+  "serverIP": "192.168.1.111",
+  "clientIP": "192.168.1.100",
+  "msgCode": 4042,
+  "msgType": 1,
+  "timestamp": 1512973817,
+  "requestID": 0,
+  "boundID": 0,
+  "authorization": 0
+ },
+ "msgBody": {
+
+  "dataRequest": {
+   "code": 0,
+   "msg": "ok"
+  },
+  "dataPush": {
+                "character":"",                                                                       
+                "similarThread":0.58
+               }
+    }
+}

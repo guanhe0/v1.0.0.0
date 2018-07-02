@@ -1,0 +1,20 @@
+{
+    "msgHead":
+    {
+        "requestID": 0, 
+        "boundID": 0,
+        "authorization":0,
+        "timestamp":1476414567061,
+        "serverIP":"192.168.1.101",
+        "msgType":1,
+        "msgCode":20022
+    },
+	"msgBody":
+	{
+		"dataRequest":
+		{
+			"code":"server_send_java_change_camera_req"
+		},
+		"dataPush":""
+	}
+}

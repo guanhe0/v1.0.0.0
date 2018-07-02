@@ -1,0 +1,19 @@
+{
+	"msgHead": {
+		"requestID": 0,
+		"boundID": 0,
+		"authorization": 0,
+		"timestamp": 1476414567061,
+		"serverIP": "192.168.1.101",
+		"msgType": 2,
+		"msgCode": 20002
+	},
+	"msgBody": {
+		"dataSend": {
+			"code": "",
+			"newClientVer": "v1.1.0",
+			"newClientUrl": "ftp://192.168.1.101/shared/client.exe"
+		},
+		"dataRecv": ""
+	}
+}
